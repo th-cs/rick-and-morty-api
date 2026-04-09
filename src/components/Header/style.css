@@ -1,0 +1,18 @@
+header {
+	display: flex;
+	justify-content: flex-end;
+	padding: 8px 36px;
+	background-color: var(--color-primary);
+}
+
+header a {
+	display: flex;
+	align-items: center;
+	gap: 16px;
+	color: var(--color-black);
+}
+
+header a span {
+	font-size: 20px;
+	font-weight: bold;
+}

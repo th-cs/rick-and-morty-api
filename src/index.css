@@ -18,3 +18,21 @@
 
 	--font-primary: "Poppins";
 }
+
+.btn-primary, .btn-secondary {
+	padding: 16px 20px;
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: 10px;
+}
+
+.btn-primary {
+	color: var(--color-white);
+	background-color: var(--color-primary);
+}
+
+.btn-secondary {
+	color: var(--color-primary);
+	background-color: var(--color-black);
+	border: 1px solid var(--color-primary);
+}

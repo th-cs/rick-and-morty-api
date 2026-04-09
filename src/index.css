@@ -1,0 +1,20 @@
+/* Reset CSS */
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	background: none;
+	border: none;
+	font-family: var(--font-primary), sans-serif;
+}
+
+:root {
+	--color-primary: #11B0C8;
+	--color-black: #000000;
+	--color-l-black: #1A1A1A;
+	--color-g-black: #0F0F0F;
+	--color-white: #FFFFFF;
+
+	--font-primary: "Poppins";
+}

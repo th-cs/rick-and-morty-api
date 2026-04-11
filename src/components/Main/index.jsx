@@ -1,6 +1,8 @@
 import "./style.css";
+import Card from "../Card";
 
 export const Main = () => {
+
 	return(
 		<main>
 			<div className="main-intro">
@@ -32,7 +34,11 @@ export const Main = () => {
 					Nossos <span>Personagens</span>
 				</h2>
 				<div className="main-cards">
-
+					<Card
+						name="Exemplo"
+						type="Exemplo"
+						status="Exemplo"
+						location="Exemplo"/>
 				</div>
 			</div>
 		</main>

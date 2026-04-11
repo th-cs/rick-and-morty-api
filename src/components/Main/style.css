@@ -1,29 +1,36 @@
 main {
 	display: flex;
+	flex-direction: column;
 	align-items: center;
-	padding: 100px 162px;
+	width: 100%;
+}
+
+.main-intro {
+	display: flex;
 	gap: 190px;
+	padding: 100px 162px;
+	width: 100%;
 	background-color: var(--color-black);
 }
 
-.main-content {
+.main-intro-text {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
 	gap: 26px;
 }
 
-.main-content h1 {
+.main-intro h1 {
 	font-size: 40px;
 	font-weight: bold;
 	color: var(--color-white);
 }
 
-.main-content h1 span {
+.main-intro h1 span {
 	color: var(--color-primary);
 }
 
-.main-content p {
+.main-intro-text p {
 	font-size: 20px;
 	font-weight: normal;
 	color: var(--color-white);
@@ -32,4 +39,22 @@ main {
 .main-container-btn {
 	display: flex;
 	gap: 20px;
+}
+
+.main-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 60px 118px;
+	gap: 40px;
+	width: 100%;
+	background-color: var(--color-l-black);
+}
+
+.main-content h2 {
+	color: var(--color-white);
+}
+
+.main-content h2 span {
+	color: var(--color-primary);
 }

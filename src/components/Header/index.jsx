@@ -1,6 +1,8 @@
 import "./style.css";
+import githubIcon from "../../assets/icons/github-icon.svg";
 
 export const Header = () => {
+
 	return (
 		<header>
 			<a
@@ -8,7 +10,7 @@ export const Header = () => {
 				target="_blank">
 				<span>TH-CS</span>
 				<img
-					src="/src/assets/icons/github-icon.svg"
+					src={githubIcon}
 					width="40px"
 					height="40px"
 					alt="Logo do GitHub"/>

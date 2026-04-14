@@ -1,4 +1,6 @@
 import "./style.css";
+import rickImg from "../../assets/images/rick-img.png"
+import logo from "../../assets/icons/rick-and-morty-logo.svg";
 import CharactersSection from "../CharactersSection";
 
 export const Main = () => {
@@ -7,11 +9,11 @@ export const Main = () => {
 		<main>
 			<div className="main-intro">
 				<img
-					src="/src/assets/images/rick-img.png"
+					src={rickImg}
 					alt="Imagem do Rick"/>
 				<div className="main-intro-text">
 					<img
-						src="/src/assets/icons/rick-and-morty-logo.svg"
+						src={logo}
 						width="430px"
 						height="126px"
 						alt="Logo de Rick and Morty"/>

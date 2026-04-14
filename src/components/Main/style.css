@@ -11,6 +11,7 @@ main {
 	gap: 190px;
 	padding: 100px 162px;
 	width: 100%;
+
 	background-color: var(--color-black);
 }
 

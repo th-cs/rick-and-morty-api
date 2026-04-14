@@ -1,6 +1,8 @@
 article {
 	display: flex;
 	flex-direction: column;
+	align-items: center;
+	width: 294px;
 	padding: 30px 20px;
 	gap: 10px;
 	border-radius: 20px;
@@ -12,8 +14,6 @@ article > img {
 	height: 216px;
 	object-fit: cover;
 	border-radius: 50px;
-
-	border: 2px dashed white;
 }
 
 article h3 {
@@ -31,6 +31,7 @@ article h3 {
 
 .card-line {
 	display: flex;
+	align-items: flex-start;
 	gap: 10px;
 }
 

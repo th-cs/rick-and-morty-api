@@ -15,7 +15,7 @@ export const CharactersSection = () => {
 	}, []);
 
 	return(
-		<section className="main-content">
+		<section className="main-content" id="characters-list">
 			<h2>
 				Nossos <span>Personagens</span>
 			</h2>

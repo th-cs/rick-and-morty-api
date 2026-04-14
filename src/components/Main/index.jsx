@@ -21,10 +21,11 @@ export const Main = () => {
 					<p>Aqui você encontra informações sobre os personagens de Rick and Morty.</p>
 					<div className="main-container-btn">
 						<a
-							href="#"
+							href="#characters-list"
 							className="btn-primary">Veja agora</a>
 						<a
-							href="#"
+							href="https://rickandmortyapi.com/documentation"
+							target="_blank"
 							className="btn-secondary">Saiba mais</a>
 					</div>
 				</div>

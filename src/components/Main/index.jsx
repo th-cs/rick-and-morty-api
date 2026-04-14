@@ -1,5 +1,5 @@
 import "./style.css";
-import Card from "../Card";
+import CharactersSection from "../CharactersSection";
 
 export const Main = () => {
 
@@ -29,18 +29,7 @@ export const Main = () => {
 					</div>
 				</div>
 			</div>
-			<div className="main-content">
-				<h2>
-					Nossos <span>Personagens</span>
-				</h2>
-				<div className="main-cards">
-					<Card
-						name="Exemplo"
-						type="Exemplo"
-						status="Exemplo"
-						location="Exemplo"/>
-				</div>
-			</div>
+			<CharactersSection />
 		</main>
 	);
 }
